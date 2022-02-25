@@ -1,0 +1,49 @@
+@font-face {
+  font-family: Astronomous;
+  src: url("../../Assets/fonts/Astronomus.ttf");
+}
+
+.card {
+  display: inline-block;
+  width: 90%;
+  font-family: Astronomous;
+  color: white;
+  border-radius: 3px;
+  border: 1px solid rgba(168, 168, 168, 0.2);
+  background-color: rgba (0, 0, 0, 0.3);
+  padding: 1.25em 1.25em 1.563em 1.25em;
+  margin-bottom: 0.625em;
+}
+
+.card:hover {
+  animation-name: flash;
+  animation-duration: 1s;
+  border: 1px solid rgba(168, 168, 168, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.data {
+  text-align: justify;
+}
+
+@keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+.flash {
+  animation-name: flash;
+}
