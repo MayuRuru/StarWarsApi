@@ -19,11 +19,12 @@ export default class App extends React.Component {
   render() {
     return (
       <div className={styles.App}>
-        <Title />
+        <Landing />
+        {/*  <Title />
         <Background />
         <Grid data={this.state.data} />
         <Spaceship />
-        <Starts />
+        <Starts /> */}
       </div>
     );
   }
