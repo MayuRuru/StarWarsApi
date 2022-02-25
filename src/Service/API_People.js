@@ -1,2 +1,2 @@
-const API_People = "https://https://swapi.dev/api/people/";
+const API_People = "https://swapi.dev/api/people/";
 export default API_People;
