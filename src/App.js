@@ -8,6 +8,7 @@ import Spaceship from "./Components/Spaceship/Spaceship";
 import Starts from "./Components/Spaceship/Stars";
 //fakeapi:
 import data from "./Service/Fake_Api.json";
+import Landing from "./Landing";
 
 export default class App extends React.Component {
   constructor(props) {
