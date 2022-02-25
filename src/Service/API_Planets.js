@@ -1,4 +1,4 @@
-const API_Planets = "https://https://swapi.dev/api/planets/";
+const API_Planets = "https://swapi.dev/api/planets/";
 export default API_Planets;
 
 /* {
