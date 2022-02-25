@@ -1,9 +1,5 @@
-const SW_Planets = "https://https://swapi.dev/api/planets/";
-export default SW_Planets;
-
-const SW_People = "https://https://swapi.dev/api/people/";
-export default SW_People;
-
+const API_Planets = "https://https://swapi.dev/api/planets/";
+export default API_Planets;
 
 /* {
     urls: {

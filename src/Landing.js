@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import SW_Planets from "./Service/SW_API";
-import SW_People from "./Service/SW_API";
+import API_People from "./Service/API_People";
+import API_Planets from "./Service/API_Planets";
 
 export default function App() {
   const [people, setPeople] = useState([]);
@@ -9,12 +9,12 @@ export default function App() {
 
   useEffect(() => {
     async function fetchPlanets() {
-      let res = await fetch(SW_Planets);
+      let res = await fetch(API_Planets);
       setPlanets(res.results);
     }
 
     async function fetchPeople() {
-      let res = await fetch(SW_People);
+      let res = await fetch(API_People);
       setPeople(res.results);
     }
 
