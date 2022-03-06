@@ -2,11 +2,12 @@ import { useEffect, useState } from "react";
 import API_People from "./Service/API_People";
 import API_Planets from "./Service/API_Planets";
 import Navbar from "./Components/Navbar/Navbar";
+import Grid from "./Components/Grid/Grid";
 
-export default function App() {
+export default function Landing() {
   const [people, setPeople] = useState([]);
   const [planets, setPlanets] = useState([]);
-  const [loading, setLoading] = useState(true);
+  //const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     async function fetchPlanets() {
@@ -27,5 +28,10 @@ export default function App() {
   console.log("planets", planets);
   console.log("people", people);
 
-  return <Navbar />;
+  return (
+    <>
+      <Navbar />
+      <Grid data={people} />
+    </>
+  );
 }

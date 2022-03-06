@@ -1,0 +1,27 @@
+@font-face {
+  font-family: Astronomous;
+  src: url("../../Assets/fonts/Astronomus.ttf");
+}
+
+.navbar ul {
+  font-family: Astronomous;
+  list-style: none;
+}
+
+.navbar li {
+  color: white;
+  font-size: 2em;
+  padding: 1em;
+  display: inline;
+}
+
+.navbar a {
+  color: white;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  color: beige;
+}

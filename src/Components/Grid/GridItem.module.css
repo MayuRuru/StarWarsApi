@@ -7,6 +7,7 @@
   display: inline-block;
   width: 90%;
   font-family: Astronomous;
+  line-height: 1.6em;
   color: white;
   border-radius: 3px;
   border: 1px solid rgba(168, 168, 168, 0.2);
@@ -28,7 +29,7 @@
 }
 
 .data {
-  text-align: justify;
+  text-align: center;
 }
 
 @keyframes flash {
