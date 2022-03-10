@@ -6,6 +6,7 @@
 * I am not so fan of Pokemons really, but wanted to play some more with APIs... 
 * This is a funny gift to my mother, who made me a fan of Star Wars movies (the old ones, of course!!).
 * I started with a fake api and turned into consuming the Star Wars API.
+* This time I used to practice with FETCH.
 * I've been practising plain CSS with module.css for this project.
 **Next steps:** refactor code and toggle from people to planets data.
 
@@ -13,7 +14,6 @@
 * HTML + CSS + JavaScript
 * CSS MODULES
 * REACT JS
-* Axios
 * React-Router-Dom
 
 ## 📌 Still in process but you can check it out:
