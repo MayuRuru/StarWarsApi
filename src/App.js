@@ -3,9 +3,9 @@ import styles from "./App.module.css";
 //components:
 import Title from "./Components/Title/Title";
 import Background from "./Components/Background/Background";
-import Spaceship from "./Components/Spaceship/Spaceship";
-import Starts from "./Components/Spaceship/Stars";
-import Landing from "./Landing";
+//import Spaceship from "./Components/Spaceship/Spaceship";
+//import Starts from "./Components/Spaceship/Stars";
+import Landing from "./Components/Landing/Landing";
 //fakeapi: import data from "./Service/Fake_Api.json";
 
 export default class App extends React.Component {
@@ -15,8 +15,8 @@ export default class App extends React.Component {
         <Title />
         <Landing />
         <Background />
-        <Spaceship />
-        <Starts />
+        {/*   <Spaceship />
+        <Starts /> */}
       </div>
     );
   }

@@ -1,3 +1,4 @@
+/*
 import { useEffect, useState } from "react";
 import { getPlanets } from "./Service/ApiCall";
 import SW_API from "./Service/SW_API";
@@ -26,3 +27,5 @@ useEffect(() => {
     setGravity();
   });
 }, [props]);
+
+*/

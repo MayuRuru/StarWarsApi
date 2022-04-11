@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import API_People from "./Service/API_People";
-import API_Planets from "./Service/API_Planets";
-import Navbar from "./Components/Navbar/Navbar";
-import Grid from "./Components/Grid/Grid";
+import API_People from "../../Service/API_People";
+import API_Planets from "../../Service/API_Planets";
+import Navbar from "../Navbar/Navbar";
+import Grid from "../Grid/Grid";
 
 export default function Landing() {
   const [people, setPeople] = useState([]);
